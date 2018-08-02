@@ -1,0 +1,17 @@
+{% extends '@projet1/Default/base.html.twig' %}
+
+
+
+
+ {% block content %}
+
+
+<section class="container_fluid">
+    <h2>{{ article_one.titre }}</h2>
+    <p>{{ article_one.img }}</p>
+    <p>{{ article_one.contenu }}</p>
+    <p>{{ article_one.date|date("m/d/Y") }}</p>
+     <a href="{{path('delete_article_homepage',{'id':article_one.id}) }}">Delete</a>
+     <a href="{{path('articles_homepage',{'id':article_one.id}) }}">retour</a>
+
+    {% endblock %}

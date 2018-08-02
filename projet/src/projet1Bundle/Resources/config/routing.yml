@@ -1,0 +1,38 @@
+projet1_homepage:
+    path:     /index.html
+    defaults: { _controller: projet1Bundle:Default:index }
+
+articles_homepage:
+    path:     /articles
+    defaults: { _controller: projet1Bundle:Default:articles }
+
+formarticles_homepage:
+    path:     /formarticles
+    defaults: { _controller: projet1Bundle:Default:formarticles }
+
+
+articlecreate_homepage:
+    path:     /articlecreate
+    defaults: { _controller: projet1Bundle:Default:articlecreate }
+
+article_one_homepage:
+    path:     /article_one/{id}
+    defaults: { _controller: projet1Bundle:Default:article_one }
+
+delete_article_homepage:
+    path:     /delete_article/{id}
+    defaults: { _controller: projet1Bundle:Default:delete_article }
+
+articleUpdate_homepage:
+    path:     /articleUpdate/{id}
+    defaults: { _controller: projet1Bundle:Default:articleUpdate}
+
+updateArticle_homepage:
+    path:     /updateArticle
+    defaults: { _controller: projet1Bundle:Default:updateArticle}
+
+decouverte_homepage:
+    path:     /decouverte
+    defaults: { _controller: projet1Bundle:Default:decouverte}
+
+

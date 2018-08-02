@@ -1,0 +1,39 @@
+header{
+		background-color:blue; 
+		height:200px;
+		width: 100%;
+	    position: absolute;
+	    top: 0;
+	    left: 0
+}
+h1{
+
+	text-align: center;
+}
+.img1{
+	
+	
+
+
+}
+aside{
+
+	float: left;
+	width: 20%;
+	height:800px;
+	background-color: yellow;
+	position: absolute;
+	left: 0;
+	top: 200px;
+	
+}
+p{
+	float: right;
+	width: 20%;
+	height:800px;
+	background-color: red;
+	position: absolute;
+	right: 0;
+	top: 200px;
+	
+}

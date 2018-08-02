@@ -1,0 +1,42 @@
+{% extends '@projet1/Default/base.html.twig' %}
+
+{% block content %}
+
+    {{ form_start(formView) }}
+<div class="container_fluid">
+    <div>
+        {{ form_widget(formView.titre) }}
+        {{ form_label(formView.titre) }}
+    </div>
+
+
+    <div>
+        {{ form_widget(formView.img) }}
+        {{ form_label(formView.img) }}
+    </div>
+
+
+    <div>
+        {{ form_widget(formView.contenu) }}
+        {{ form_label(formView.contenu) }}
+    </div>
+
+
+    <div>
+        {{ form_widget(formView.date) }}
+        {{ form_label(formView.date) }}
+    </div>
+
+
+    <div>
+        {{ form_row(formView.submit) }}
+    </div>
+
+</div>
+
+    {{ form_end(formView) }}
+
+{% endblock %}
+
+
+

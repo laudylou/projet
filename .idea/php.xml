@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/composer" />
+      <path value="$PROJECT_DIR$/laudylou/vendor/doctrine/annotations" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+</project>

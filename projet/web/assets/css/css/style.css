@@ -1,0 +1,113 @@
+footer {
+  height: 100px;
+  background-image: url("https://cydarstar-prestige.com/wp-content/uploads/2017/03/Terrasse_cydarstar_monaco_2017-625x222.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: center;
+  position: fixed;
+  bottom: 0; }
+
+.link {
+  color: red;
+  font-size: 1.3em; }
+
+header {
+  border-bottom: solid 4px #FFD700; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  font-family: AppleGothic;
+  color: #e1e6e4; }
+
+.titre_accueil {
+  color: #FFD700;
+  font-size: 80px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px; }
+
+.img1 {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0; }
+
+.container {
+  height: 600px; }
+
+.groupe_index {
+  float: left;
+  padding: 15px;
+  background-color: grey; }
+
+.img1_index {
+  width: 60%;
+  height: 600px;
+  float: left;
+  border: solid red 2px;
+  border: groove 20px;
+  margin-top: 40px; }
+
+.text_index {
+  float: left;
+  width: 60%;
+  box-shadow: 6px 6px 0px red;
+  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 0px 30px black;
+  color: white;
+  margin-top: 40px; }
+
+.titre_index {
+  float: left;
+  width: 60%;
+  text-align: center; }
+
+aside {
+  float: right;
+  height: 100%;
+  width: 40%;
+  background-color: black;
+  display: flex;
+  align-items: right; }
+
+.groupe_index {
+  align-items: center;
+  justify-content: center; }
+
+.container_fluid {
+  text-align: center;
+  float: left;
+  border: solid red 4px;
+  width: 30%;
+  margin: 2px; }
+
+.decouvrir {
+  background-image: url("../../images/Monaco-header.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.logo {
+  width: 25%;
+  padding: 5px 0; }
+
+.menu {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.accueil {
+  height: 80vh; }
+
+.bouton {
+  width: 150px;
+  background-color: red;
+  padding: 10px 25px;
+  color: white;
+  margin: 0 auto;
+  border-radius: 25px; }
+
+/*# sourceMappingURL=style.css.map */

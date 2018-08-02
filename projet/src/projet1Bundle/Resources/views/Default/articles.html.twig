@@ -1,0 +1,24 @@
+{% extends '@projet1/Default/base.html.twig' %}
+
+
+
+
+ {% block content %}
+
+     {% for  Article in articles %}
+
+      <div class="container_fluid">
+       <div class="row">
+        <div class="col-md-4">
+         <a href="{{ path ('article_one_homepage' ,{'id':Article.id } ) }}"><h2>{{ Article.titre }}</a></h2>
+         <p>{{ Article.img }}</p>
+         <p>{{ Article.contenu }}</p>
+         <p>{{ Article.date|date("m/d/Y") }}</p>
+         <a href="{{path('articleUpdate_homepage',{'id':Article.id}) }}">Modifier</a>
+        </div>
+       </div>
+      </div>
+
+     {% endfor %}
+
+ {% endblock %}

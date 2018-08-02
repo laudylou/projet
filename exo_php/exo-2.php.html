@@ -1,0 +1,59 @@
+
+<?php $sidebar = 'right';   ?>
+
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.">       
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Document</title>
+    <link rel="stylesheet" style="text/css" href="styles.css">
+</head>	
+<body>
+<header>
+	
+	<h1>CONDITION</h1>
+
+
+</header>
+ 
+ <!-- je vérifie avec un condition php si ma variable sidebar est égale à false -->
+ <?php if ($sidebar === 'right') { ?>
+<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
+<?php } ?>
+
+
+<h2>EXERCICES</h2>
+ 
+
+
+<div><img class="image1" src="img1.jpeg"></div>
+
+
+	<?php if ($sidebar === 'left') { ?>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+ <?php } ?>
+
+
+	 <!-- si oui j'affiche ma sidebar en html-->
+ <!-- je ferme ma condition php-->
+
+	
+
+</body>
+</html>
+
